@@ -15,8 +15,8 @@ groups=()
 depends=()
 makedepends=()
 install=
-source=("binutils-h8300-hms.deb::http://lug.mtu.edu/ubuntu/pool/universe/b/binutils-h8300-hms/binutils-h8300-hms_2.16.1-10build1_amd64.deb")
-md5sums=("d0ffe60149a62f5ce3a12f1b0beab005")
+source=("binutils-h8300-hms.deb::http://ftp.jp.debian.org/debian/pool/main/b/binutils-h8300-hms/binutils-h8300-hms_2.16.1-10+b2_amd64.deb")
+md5sums=("fdac01f140b0b5bcb434b06eba9a1d70")
 
 package() {
 	bsdtar -xf data.tar.xz -C "$pkgdir/"
